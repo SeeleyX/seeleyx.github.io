@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="secondary.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Cabin:wght@400;600;700&family=Crimson+Text:wght@400;600&family=Inconsolata&family=Inder&family=Lexend:wght@500;700&family=Raleway:wght@400;600;700&family=Supermercado+One&display=swap" rel="stylesheet">
+    <title>William Seeley</title>
+</head>
+<body>
+<div class="pointer"></div>
+<div class="curve headercurve1"></div>
+<div class="wrapper">
+    <ul class="header">
+        <li class="home"><a href="index.html">william seeley</a></li>
+        
+        <li class="projects-page"><a href="projects.html">projects</a></li>
+        <li class="about"><a href="about.html">about</a></li>
+        <li class="contact"><a href="contact.html">contact</a></li>
+    </ul>
+    <div class="project-roller">
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 08-23 sorting algorithms</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="sorting-algos.mp4" type="video/mp4">
+                </video>
+            <p>whilst using python and javascript libraries such as numpy, i found it interesting how they sorted arrays. i wanted to try and create my own variation on these sorting algorithms and show visually how they worked, as well as creating something i enoyed looking at. i learnt more about sorting algorithms and gained an understanding of functions that i regularly use in my code.</p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 07-23 pianocomb</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="pianocomb.mp4" type="video/mp4">
+                </video>
+                <p>Similarly to minesweeper this required a lot of logic, however this logic was more complicated than that of a simple square as the shape was irregular, each row having a different number of hexagons and offset from the last. I also took my very basic knowledge of musical notes and chords to create this new take on a piano. This was the first time working with .mp3 files, they were a good example for something that can be altered with a user input such as the volume and different modes of this instrument. </p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 06-23 journal</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="journal_site.mp4" type="video/mp4">
+                </video>
+                <p>For this site, I focused on the look over the content. I felt it was important to look at the UI and UX of projects as well as functionality so this was a step into the design world. Organising my css and javascript code was a big part of this project, knowing that if I were to work as a team it would be necessary that my code is readable and easy to explain, I did this by commenting, sectioning and using utility classes and custom css properties, allowing me to make a day and night theme.  </p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 06-23 minesweeper</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="minesweeper_clone.mp4" type="video/mp4">
+                </video>
+                <p>Minesweeper became a hobby of mine, and so I had a very good understanding of the logic behind the game. I used this knowledge to create a clone of the game so I could play without the internet! I thought it would be a challenge to apply this logic and it was my first time using javaScript to create elements but was eventually able to create and design my own take on the game. I was able to use local storage to log my own best times despite refreshing. </p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 05-23 underground</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="underground_map.mp4" type="video/mp4">
+                </video>
+                <p>With this project I wanted to get more comfortable using SVGs. I designed like with previous projects a layout on figma and used its features to export my tube lines as SVGs. Another learning point from this point was a custom scrollbar that used ::before and ::after pseudo elements to effectively make the scroll bar look like a tube line; it would also update automatically depending on how many tube stations there were. </p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 03-23 physics simulations</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="physics-sims.mp4" type="video/mp4">
+                </video>
+                <p>in my third year of studies, i took a module in rigid and deformable bodies. this inspired me to simulate a double pendulum using numerical methods. i first created the pendulum in python using matplotlib but to give me more freedom on the design and customisation of the variables involved, i recreated the simulation on javascript. later on in summer i wanted to investigate 3D simulations with three.js leading me to create a bead falling down a helix with differing radii, at varying gravities. lastly i wanted to try graphing functions without using any libraries, eventually creating a "rollercoaster" that simulated a point riding a polynomial. </p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 08-22 anwers</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="anwers_site.mp4" type="video/mp4">
+                </video>
+                <p>This website was a much larger time investment than previous projects, with a team of friends we discovered the world of django and so could now use our knowledge of python learnt through university, to work on a back-end of a website. Django was also used to create log-in forms and page templates making it easier to create new content on the site. Throughout this project my ability to code vanilla html, css and javaScript improved vastly. Being the main front-end developer on this project gave me lots of experience in overcoming different problems that would come up in future projects.</p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 01-22 conversion app</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="conversion_app.mp4" type="video/mp4">
+                </video>
+                <p>The conversion app was my first step into using javascript, using it to make this app that would convert lengths, weights and temperatures into any other units, this became remarkably helpful throughout my second year at uni. I also was getting used to using css-properties like grid and pseudo elements such as :hover.</p>
+            </div>
+        </div>
+        <div class="project-container staggered">
+            <a onclick="appearcontent(event)"> 10-21 webextension</a>
+            <div class="hidden-content">
+                <video autoplay loop muted>
+                    <source src="webextension.mp4" type="video/mp4">
+                </video>
+                <p>The webextension was the first time I worked with Google's developer mode, it helped me learn more about animation and was a good stepping stone into other small projects. It was part of a hacktable hackathon, with the aim to help cut down on one's internet carbon footprint.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <p>get in touch</p>
+        <ul class="footer">
+            <li class="home"><a href="index.html">william seeley</a></li>
+            <li class="mobile"><a href="">+447788252043</a></li>
+            <li class="email"><a href="">william.seeley@hotmail.com</a></li>
+        </ul>
+    </div> 
+</div>
+    <script src="index.js"></script>
+    <script src="animation-appear.js"></script>
+</body>
+</html>
