@@ -1,3 +1,4 @@
+/* custom properties + Dark Theme*/
 :root{
     --bc-color:#393646;
     --fc-main:rgb(244, 238, 224);
@@ -63,6 +64,7 @@ p.info-text{
     opacity: 100%;
 }
 
+/* project rolling menu */
 .hidden-content{
     pointer-events: none;
     height: 0;
@@ -86,6 +88,7 @@ p.info-text{
     aspect-ratio: 16/9;
 }
 
+/* Adjust for smaller screens */
 @media (max-width: 630px) {
     .project-container>a{
         font-size: var(--step-2);

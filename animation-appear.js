@@ -1,5 +1,4 @@
 //appear on scroll and load
-// Create an Intersection Observer
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -8,13 +7,12 @@ const observer = new IntersectionObserver((entries, observer) => {
       }
     });
 });
-  
-  // Observe each fade-in element
+
+//calling the function for elements that have the fade-in class
 fadeElements.forEach((element) => {
     observer.observe(element);
 });
 
-  //stagger appear for projects titles
 staggeredElements.forEach((element, index) => {
     const delay = 100 * index; 
   

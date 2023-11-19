@@ -74,6 +74,7 @@ navigationLinks.forEach(function(link) {
     link.parentNode.classList.add('active');
   }
 });
+
 //for small screens justify content left if on href-index.html
 function checkForSmall(){
     if (currentPageUrl === navigationLinks[0].href && window.innerWidth < 475) {
@@ -86,7 +87,8 @@ function checkForSmall(){
 window.addEventListener('resize', function() {
     checkForSmall();
 });
-//parallax effect of curves
+
+//parallax effect on curves
 window.addEventListener('scroll', function() {
 
     const scrollY = window.scrollY;

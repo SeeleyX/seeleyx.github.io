@@ -1,3 +1,5 @@
+
+/* custom properties + Dark Theme*/
 :root{
     --bc-color:#393646;
     --fc-main:rgb(244, 238, 224);
@@ -22,6 +24,7 @@
     }
 }
 
+/* Global Properties to entire page*/
 *{
     text-transform: lowercase;
 }
@@ -48,6 +51,7 @@ h1,h2,h3,p{
     margin: 0;
 }
 
+/* custom cursor */
 .pointer{
     opacity: 0;
     position: fixed;
@@ -66,12 +70,6 @@ h1,h2,h3,p{
     background: transparent;
     border: 2px solid var(--fc-main);
 }
-/*.invert{
-    width: calc(var(--step-5)*5);
-    height: calc(var(--step-5)*5);
-    background: #FFF;
-    mix-blend-mode: difference;
-}*/
 
 .pointer.button-hovered{
     background:var(--bc-color);
@@ -255,6 +253,7 @@ h1,h2,h3,p{
     z-index: -5;
 }
 
+/* parallax effect */
 .headercurve1{
     top: 0;
     aspect-ratio: 1440/262;
@@ -276,6 +275,7 @@ h1,h2,h3,p{
     background-image: url(footercurve2.svg);
 }
 
+/* media query adjusting for small screens*/
 @media (max-width: 630px) {
     .header{
         justify-content: right;
@@ -334,7 +334,7 @@ h1,h2,h3,p{
         display: none;
     }
 }
-
+/* adjusting for mobile*/
 @media (max-width: 475px) {
     .header .active  {
         display: none;
