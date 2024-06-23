@@ -88,6 +88,11 @@ p.info-text{
     aspect-ratio: 16/9;
 }
 
+.hidden-content>img{
+    max-width: calc(var(--step-5)*10);
+    aspect-ratio: 16/9;
+}
+
 /* Adjust for smaller screens */
 @media (max-width: 630px) {
     .project-container>a{
